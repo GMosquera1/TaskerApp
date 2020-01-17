@@ -32,6 +32,7 @@ struct ContentView: View {
                         .font(.subheadline)
                     Spacer()
                     Text("EPHESIANS 3:20")
+                    Text("Make the vision plain for all to see")
                 }
             }.padding()
             

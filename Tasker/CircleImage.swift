@@ -11,7 +11,7 @@ import SwiftUI
 struct CircleImage: View {
     var body: some View {
         Image("images-2")
-            .clipShape(Circle()).overlay(Circle().stroke(Color.gray, lineWidth: 2))
+            .clipShape(Circle()).overlay(Circle().stroke(Color.yellow, lineWidth: 2))
             .shadow(radius: 10)
         
     }
