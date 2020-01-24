@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import UserNotifications
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
