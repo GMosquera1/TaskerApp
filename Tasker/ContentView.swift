@@ -22,7 +22,11 @@ struct ContentView: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
-            
+            Button(action: {
+                print("Button tapped!")
+            }) {
+                Text ("2020")
+            }
             //TextViews
             VStack(alignment: .leading) {
                 Text("DECLARATION")
