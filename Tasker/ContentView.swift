@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         
         VStack {
@@ -26,6 +27,9 @@ struct ContentView: View {
                 print("Button tapped!")
             }) {
                 Text ("2020")
+                    .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .top, endPoint: .bottom))
+                    .foregroundColor(.yellow)
+                    .font(.title)
             }
             //TextViews
             VStack(alignment: .leading) {
