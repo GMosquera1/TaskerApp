@@ -18,6 +18,7 @@
 		7D7855C223CD3983005C9459 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7855C123CD3983005C9459 /* CircleImage.swift */; };
 		7D7855C423CD3A80005C9459 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7855C323CD3A80005C9459 /* MapView.swift */; };
 		7DD5484823EDB4E00027A703 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5484723EDB4E00027A703 /* ListView.swift */; };
+		7DD5484A23EE19E20027A703 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD5484923EE19E20027A703 /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		7D7855C123CD3983005C9459 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		7D7855C323CD3A80005C9459 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7DD5484723EDB4E00027A703 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		7DD5484923EE19E20027A703 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				7D78559123CD2682005C9459 /* AppDelegate.swift */,
 				7D78559323CD2682005C9459 /* SceneDelegate.swift */,
 				7D78559523CD2682005C9459 /* ContentView.swift */,
+				7DD5484923EE19E20027A703 /* NavigationView.swift */,
 				7DD5484723EDB4E00027A703 /* ListView.swift */,
 				7D7855C123CD3983005C9459 /* CircleImage.swift */,
 				7D7855C323CD3A80005C9459 /* MapView.swift */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD5484A23EE19E20027A703 /* NavigationView.swift in Sources */,
 				7D78559223CD2682005C9459 /* AppDelegate.swift in Sources */,
 				7D7855C223CD3983005C9459 /* CircleImage.swift in Sources */,
 				7DD5484823EDB4E00027A703 /* ListView.swift in Sources */,
